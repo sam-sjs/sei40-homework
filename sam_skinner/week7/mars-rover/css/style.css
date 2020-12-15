@@ -1,0 +1,49 @@
+body {
+  background-color: #A1251B;
+  color: #BBBBBB;
+}
+
+nav h1 {
+  display: inline-block;
+}
+
+nav input {
+  position: absolute;
+  display: inline-block;
+  right: 20px;
+  top: 30px;
+}
+
+nav label {
+  position: absolute;
+  display: inline-block;
+  right: 180px;
+  top: 31px;
+}
+
+#flexContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.rovers {
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+.rovers img {
+  display: block;
+  cursor: pointer;
+  border: 2px solid #222222;
+}
+
+#gridContainer {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#gridContainer img {
+  max-width: 400px;
+}

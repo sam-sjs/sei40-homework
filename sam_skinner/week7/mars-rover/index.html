@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Red Rover Photos</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <h1>Mars Photo Database</h1>
+    <label for="solCount">Mission Day: </label>
+    <input type="text" id="solCount" placeholder="Enter Mission Day" value="1000">
+  </nav>
+  <hr>
+  <div id="flexContainer">
+    <div id="opportunityContainer" class="rovers">
+      <h3>Opportunity</h3>
+      <img roverId="opportunity" src="images/opportunity.png" alt="Image of the NASA Opportunity Rover">
+    </div>
+    <div id="curiosityContainer" class="rovers">
+      <h3>Curiosity</h3>
+      <img roverId="curiosity" src="images/curiosity.png" alt="Image of the NASA Curiosity Rover">
+    </div>
+    <div id="spiritContainer" class="rovers">
+      <h3>Spirit</h3>
+      <img roverId="spirit" src="images/spirit.png" alt="Image of the NASA Spirit Rover">
+    </div>
+  </div>
+  <div id="gridContainer"></div>
+</body>
+</html>
